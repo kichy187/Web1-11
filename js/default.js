@@ -8,17 +8,17 @@ while (answer != number){
 {
   message = 'あたり！';
 }
-else if(answer<number)
+  else if(answer<number)
 {
   message = '残念、もっと大きいです！';
 }
-else if(answer>number)
+  else if(answer>number)
 {
   message = '残念、もっと小さいです！';
 }
-else
+  else
 {
   message = '0~3の数字を入力してください！！';
-}document.getElementById('choice').textContent = message;}}
+}document.getElementById('choice').textContent = message;}
 message = 'あたり！';
 document.getElementById('choice').textContent = message;
