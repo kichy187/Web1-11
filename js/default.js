@@ -4,7 +4,6 @@ var message;
 if(answer === number)
 {
   message = 'あたり！';
-  break;
 }
 else if(answer<number)
 {
